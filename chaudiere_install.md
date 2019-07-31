@@ -6,17 +6,11 @@
 <h1 id="os-installation-and-configuration">OS installation and configuration</h1>
 <h2 id="install-and-configure-raspbian">Install and configure Raspbian</h2>
 <ol>
-<li>
-<p>Format SD card FAT32</p>
-</li>
-<li>
-<p>Download <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a> image</p>
-</li>
-<li>
-<p>Flash image with <a href="https://www.balena.io/etcher/">Etcher</a></p>
-</li>
+<li>Format SD card FAT32</li>
+<li>Download <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a> image</li>
+<li>Flash image with <a href="https://www.balena.io/etcher/">Etcher</a></li>
 </ol>
-<h2 id="hardware-setup">2_ Hardware setup</h2>
+<h2 id="hardware-setup">Hardware setup</h2>
 <p>Create a file boot/ssh to enable ssh after boot</p>
 <p>Add at the end of boot/config.txt</p>
 <h6 id="mj-enable-the-kernel-module-allowing-1-wire-communication-on-gpio-4"># mj Enable the kernel module allowing 1-wire communication on GPIO-4</h6>
