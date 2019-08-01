@@ -10,7 +10,8 @@ mkdir ~/CONFIG_CHAUDIERE
 ```
 
 # Production
-
+cd  ~/Prod
+git clone 
 
 
 # Secret conf file 
@@ -19,5 +20,5 @@ mkdir ~/CONFIG_CHAUDIERE
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDA4NDcxOF19
+eyJoaXN0b3J5IjpbLTE0MDY2MjAyMl19
 -->
