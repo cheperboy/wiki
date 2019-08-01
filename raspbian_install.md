@@ -46,17 +46,16 @@ network={
 `sudo apt-get upgrade -y` met à jour tous les paquets installés sur le système
 
 **Install packages**
-```
-sudo apt-get -y install supervisor git python-pip nginx
-```
-**Install packages**
-Install packages (specific to Chaudiere application)
-sudo apt-get install curl
+`sudo apt-get -y install supervisor git python-pip nginx`
+
+**specific packages for chaudiere app**
+`sudo apt-get install curl`
 
 NEXMO need cryptographie and cffi
-sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+`sudo apt-get install build-essential libssl-dev libffi-dev python-dev`
 
-sudo apt-get clean supprime les paquets téléchargés et stockés sur carte SD
+**clean**
+`sudo apt-get clean` supprime les paquets téléchargés et stockés sur carte SD
 
 
 ## bashrc
@@ -87,6 +86,6 @@ workon dev
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY2Njk0MiwxNjIxMDMwNzE1LDEwMj
-k5ODEzMjBdfQ==
+eyJoaXN0b3J5IjpbNDgyMjA3NjY0LDE2MjEwMzA3MTUsMTAyOT
+k4MTMyMF19
 -->
