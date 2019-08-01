@@ -199,3 +199,6 @@ sudo apt-get dist-upgrade -y met à jour tous les paquets installés vers les de
 <p>En mode production, deux minutes sont traitées à chaque appel</p>
 <p>Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, alors une alerte mail/sms est générée. Aucun mail/sms n’est envoyé si une alerte à déja été générée dans les 10 minutes précédentes.</p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU1OTE1NTAwMl19
+-->
