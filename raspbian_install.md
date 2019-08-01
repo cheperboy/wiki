@@ -39,10 +39,34 @@ network={
 1.  Modify hostname, Edit `/etc/hostname`. Set to chaudiere (recognized on network as *chaudiere.local*)
 2.  Modify pi password `sudo passwd pi`
  
+## Package install
+
 ## bashrc
-## bashrc
-Edit ~/.bashrc
-4. 
+`nano ~/.bashrc`
+```shell
+ # ls alias
+alias ll='ls -l'
+alias la='ls -A'
+alias lla='ls -la'
+alias l='ls -CF'
+
+# supervisor alias
+alias restart_all='sudo supervisorctl restart all'
+alias status='sudo supervisorctl status'
+alias start_script='sudo supervisorctl start script'
+alias stop_script='sudo supervisorctl stop script'
+
+# other alias
+alias dev='cd /home/pi/Dev/chaudiere/'
+alias prod='cd /home/pi/Prod/chaudiere/'
+
+# load virtualenvwrapper for python (after custom PATHs)
+export WORKON_HOME=~/Envs
+source /home/pi/.local/bin/virtualenvwrapper.sh
+
+workon dev
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDUwMzUzOSwxMDI5OTgxMzIwXX0=
+eyJoaXN0b3J5IjpbMTYyMTAzMDcxNSwxMDI5OTgxMzIwXX0=
 -->
