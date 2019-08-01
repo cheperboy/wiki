@@ -32,7 +32,14 @@ To Restart nginx `sudo service nginx restart`
 
 ## Supervisor
 
-`sudo cp ~/Prod/chaudiere/config/prod/supervisor_chaudiere.conf /etc/supervisor/conf.d/supervisor_chaudiere.conf`
+```
+sudo supervosorctl stop all
+sudo cp ~/Prod/chaudiere/config/prod/supervisor_chaudiere.conf /etc/supervisor/conf.d/
+sudo supervosorctl reread
+sudo supervosorctl reload
+sudo supervosorctl start ```
+
+
 
 # Secret conf file 
 
@@ -40,5 +47,5 @@ To Restart nginx `sudo service nginx restart`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk1MzY3NjcsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbLTEwNDAzOTY4MTUsMTc0ODY2MTY5OV19
 -->
