@@ -9,7 +9,7 @@ mkdir ~/Prod/db
 mkdir ~/CONFIG_CHAUDIERE
 ```
 
-# Production
+# Production tools
 ```
 cd  ~/Prod
 git clone https://github.com/cheperboy/chaudiere.git
@@ -47,5 +47,5 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4OTk5ODMwLDE3NDg2NjE2OTldfQ==
+eyJoaXN0b3J5IjpbLTE3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
