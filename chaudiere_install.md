@@ -15,6 +15,25 @@ cd  ~/Prod
 git clone https://github.com/cheperboy/chaudiere.git
 ```
 
+## nginx
+Edit a new conf file and copy the content of this template conf file
+```
+sudo nano /etc/nginx/sites-available/chaudiere
+sudo ln -s /etc/nginx/sites-available/chaudiere /etc/nginx/sites-enabled
+```
+
+Remove the sym link to default conf file (otherwise it causes errors)
+sudo rm /etc/nginx/sites-enabled/default
+
+To test configuration:
+sudo nginx -t
+
+Restart nginx
+sudo service nginx restart
+
+## Usefull Cmmands
+sudo systemctl status nginx
+sudo service nginx restart
 
 
 # Secret conf file 
@@ -23,5 +42,5 @@ git clone https://github.com/cheperboy/chaudiere.git
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzY3NDcyNF19
+eyJoaXN0b3J5IjpbMTkwNTEwNjA1OV19
 -->
