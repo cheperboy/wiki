@@ -32,11 +32,11 @@ To Restart nginx `sudo service nginx restart`
 
 ## Supervisor
 ```
-sudo supervosorctl stop all
+sudo supervisorctl stop all
 sudo cp ~/Prod/chaudiere/config/prod/supervisor_chaudiere.conf /etc/supervisor/conf.d/
-sudo supervosorctl reread
-sudo supervosorctl reload
-sudo supervosorctl start sensor gunicorn
+sudo supervisorctl reread
+sudo supervisorctl reload
+sudo supervisorctl start sensor gunicorn
 ```
 
 
@@ -47,5 +47,5 @@ sudo supervosorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzA2MTc4MiwxNzQ4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbNTY4OTk5ODMwLDE3NDg2NjE2OTldfQ==
 -->
