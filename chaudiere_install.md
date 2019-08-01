@@ -18,7 +18,9 @@ git clone https://github.com/cheperboy/chaudiere.git
 ## nginx
 Edit a new conf file and copy the content of this template conf file
 ```
-sudo nano /etc/nginx/sites-available/chaudiere
+# sudo nano /etc/nginx/sites-available/chaudiere
+sudo cp ~/Prod/chaudiere/ /etc/nginx/sites-available/chaudiere
+
 sudo ln -s /etc/nginx/sites-available/chaudiere /etc/nginx/sites-enabled
 ```
 
@@ -42,5 +44,5 @@ sudo service nginx restart
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTEwNjA1OV19
+eyJoaXN0b3J5IjpbNzI4OTYyODAyXX0=
 -->
