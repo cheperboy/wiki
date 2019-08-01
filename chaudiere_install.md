@@ -1,4 +1,4 @@
-# directories
+# Directories
 ```
 mkdir ~/Dev
 mkdir ~/Dev/log
@@ -8,10 +8,10 @@ mkdir ~/Prod/log
 mkdir ~/Prod/db
 mkdir ~/CONFIG_CHAUDIERE
 ```
-Create secret conf file 
+#Create secret conf file 
 
 `nano ~/CONFIG_CHAUDIERE/chaudiere_secret_config.py`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTM5NzQ0OV19
+eyJoaXN0b3J5IjpbLTMzMTAwNTgzNl19
 -->
