@@ -37,7 +37,8 @@ sudo supervosorctl stop all
 sudo cp ~/Prod/chaudiere/config/prod/supervisor_chaudiere.conf /etc/supervisor/conf.d/
 sudo supervosorctl reread
 sudo supervosorctl reload
-sudo supervosorctl start ```
+sudo supervosorctl start sensor gunicorn
+```
 
 
 
@@ -47,5 +48,5 @@ sudo supervosorctl start ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAzOTY4MTUsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbNjg1NjgzMzMyLDE3NDg2NjE2OTldfQ==
 -->
