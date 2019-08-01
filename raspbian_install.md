@@ -33,6 +33,11 @@ network={
     key_mgmt=WPA-PSK
 }
 ```
+
+# Configuration
+1.  Modify hostname, Edit `/etc/hostname`. Set to chaudiere
+2.  Modify pi password type terminal sudo passwd pi
+3.  Edit ~/.bashrc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTE1MjQ2LDEwMjk5ODEzMjBdfQ==
+eyJoaXN0b3J5IjpbNTUzOTE0MDAsMTAyOTk4MTMyMF19
 -->
