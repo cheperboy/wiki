@@ -44,7 +44,17 @@ sudo supervisorctl start sensor gunicorn
 | File | Line | Value |
 | ---- | ----- |------|
 | chaudiere_secret_config.py | "URL" : "http://xxx.hd.free.fr:",| Public IP of the network| 
-| Paragraph | Text |
+| flask_app/app/constantes.py|InputDb = {
+TEMP_CHAUDIERE : 'temp0',
+TEMP_FUMEE : 'temp1',
+TEMP_RETOUR : 'temp2',
+VENT_SECONDAIRE : 'watt0',
+ALLUMAGE : 'watt1',
+VENT_PRIMAIRE : 'watt2',
+ALIMENTATION : 'watt3',
+PHASE : 'phase'
+}  | ooo |
+
 
 
 # Secret conf file 
@@ -53,6 +63,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODY2MzUyNCwtMTc4NTc0MDMzNSwxNz
-Q4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbLTEyMTc1NTc2NTAsLTE3ODU3NDAzMzUsMT
+c0ODY2MTY5OV19
 -->
