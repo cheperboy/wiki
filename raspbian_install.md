@@ -40,6 +40,25 @@ network={
 2.  Modify pi password `sudo passwd pi`
  
 ## Package install
+**Update/upgrade system and existing packages**
+`sudo apt-get update` met à jour la liste des dépôts
+`sudo apt-get dist-upgrade -y` met à jour tous les paquets installés vers les dernières versions en installant de nouveaux paquets si nécessaire
+`sudo apt-get upgrade -y` met à jour tous les paquets installés sur le système
+
+Install packages
+sudo apt-get -y install supervisor
+sudo apt-get -y install git
+sudo apt-get -y install python-pip
+sudo apt-get -y install nginx
+
+Install packages (specific to Chaudiere application)
+sudo apt-get install curl
+
+NEXMO need cryptographie and cffi
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+
+sudo apt-get clean supprime les paquets téléchargés et stockés sur carte SD
+
 
 ## bashrc
 `nano ~/.bashrc`
@@ -69,6 +88,6 @@ workon dev
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTc2OTkzMSwxNjIxMDMwNzE1LDEwMj
+eyJoaXN0b3J5IjpbMTE3NDgxODE4MiwxNjIxMDMwNzE1LDEwMj
 k5ODEzMjBdfQ==
 -->
