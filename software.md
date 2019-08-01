@@ -41,7 +41,9 @@ E --> |audio jack| F[Current sensor SCT-013-030 30A-1V]
 B --> G[get_temp.py]
 G --> |1 wire| H[Temperature sensor DS18B20]
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjk4NDgwMywxMjc0NjUyMDA5LC0xNz
-Q0NzAyMTQwLDQ5ODIyNDYsLTE0NzUyNzc1NjldfQ==
+eyJoaXN0b3J5IjpbMTMzMzgwMjYzNSwtMzI2OTg0ODAzLDEyNz
+Q2NTIwMDksLTE3NDQ3MDIxNDAsNDk4MjI0NiwtMTQ3NTI3NzU2
+OV19
 -->
