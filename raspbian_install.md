@@ -3,6 +3,7 @@
 1. Format SD card FAT32
 2. Download [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)image
 3. Flash image with [Etcher](https://www.balena.io/etcher/)
+4. Create a file `boot/ssh` before booting raspbian to enable ssh
 
 # Wifi setup before first boot
 [help](https://howchoo.com/g/ndy1zte2yjn/how-to-set-up-wifi-on-your-raspberry-pi-without-ethernet)
@@ -33,5 +34,5 @@ network={
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1ODg2ODcxLDEwMjk5ODEzMjBdfQ==
+eyJoaXN0b3J5IjpbLTU4MTE1MjQ2LDEwMjk5ODEzMjBdfQ==
 -->
