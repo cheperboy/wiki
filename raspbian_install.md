@@ -51,6 +51,7 @@ network={
 **Install packages**
 
 `sudo apt-get -y install supervisor git python-pip nginx`
+
 `pip install virtualenv virtualenvwrapper`
 
 **specific packages for chaudiere app**
@@ -93,6 +94,6 @@ source /home/pi/.local/bin/virtualenvwrapper.sh
 workon dev
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTc2NDI3LC04NzI1MjgyNCwtODIxOD
-ExNTcyLDE2MjEwMzA3MTUsMTAyOTk4MTMyMF19
+eyJoaXN0b3J5IjpbMTU4NDEwNDA4OSwtODcyNTI4MjQsLTgyMT
+gxMTU3MiwxNjIxMDMwNzE1LDEwMjk5ODEzMjBdfQ==
 -->
