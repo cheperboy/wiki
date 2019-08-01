@@ -42,7 +42,9 @@ network={
 ## Package install
 **Update/upgrade system and existing packages**
 `sudo apt-get update` met à jour la liste des dépôts
+
 `sudo apt-get dist-upgrade -y` met à jour tous les paquets installés vers les dernières versions en installant de nouveaux paquets si nécessaire
+
 `sudo apt-get upgrade -y` met à jour tous les paquets installés sur le système
 
 **Install packages**
@@ -86,6 +88,6 @@ workon dev
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMjA3NjY0LDE2MjEwMzA3MTUsMTAyOT
-k4MTMyMF19
+eyJoaXN0b3J5IjpbLTgyMTgxMTU3MiwxNjIxMDMwNzE1LDEwMj
+k5ODEzMjBdfQ==
 -->
