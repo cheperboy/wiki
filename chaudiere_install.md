@@ -39,6 +39,12 @@ sudo supervisorctl reload
 sudo supervisorctl start sensor gunicorn
 ```
 
+## Edit config variable
+
+| File | Line | Line |
+| --- | ----------- |---|
+| Header | Title |
+| Paragraph | Text |
 
 
 # Secret conf file 
@@ -47,5 +53,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU3NDAzMzUsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbLTI0NDAyNjY3MCwtMTc4NTc0MDMzNSwxNz
+Q4NjYxNjk5XX0=
 -->
