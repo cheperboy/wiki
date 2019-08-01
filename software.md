@@ -36,13 +36,13 @@ graph TD
 A[supervisor] -->|every second| B(create_data.py)
 B --> C[get_watt.py]
 C --> |i2C| E[ADS1115]
-E --> |audio jack| F[Current-sensor SCT-013-030 30A-1V]
+E --> |audio jack| F[Current sensor SCT-013-030 30A-1V]
 B --> G[get_temp.py]
-G --> |1 wire| H[DS18B20]
+G --> |1 wire| H[Temperature sensor DS18B20]
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODQyMDQ1NiwtMTc0NDcwMjE0MCw0OT
-gyMjQ2LC0xNDc1Mjc3NTY5XX0=
+eyJoaXN0b3J5IjpbMjg2MDU1MDM1LC0xNzQ0NzAyMTQwLDQ5OD
+IyNDYsLTE0NzUyNzc1NjldfQ==
 -->
