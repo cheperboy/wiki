@@ -27,12 +27,12 @@ Remove the sym link to default conf file (otherwise it causes errors)
 `sudo rm /etc/nginx/sites-enabled/default`
 
 To test configuration `sudo nginx -t`
+
 To Restart nginx `sudo service nginx restart`
 
-## Usefull Cmmands
-sudo systemctl status nginx
-sudo service nginx restart
+## Supervisor
 
+`sudo nano /etc/supervisor/conf.d/supervisor_chaudiere.conf`
 
 # Secret conf file 
 
@@ -40,5 +40,5 @@ sudo service nginx restart
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbLTEzODgyMDg3NzgsMTc0ODY2MTY5OV19
 -->
