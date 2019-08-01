@@ -16,7 +16,7 @@ git clone https://github.com/cheperboy/chaudiere.git
 ```
 
 ## nginx
-Edit a new conf file and copy the content of this template conf file
+Create a chaudiere conf file and sym link
 ```
 # sudo nano /etc/nginx/sites-available/chaudiere
 sudo cp ~/Prod/chaudiere/config/prod/nginx_chaudiere_conf /etc/nginx/sites-available/
@@ -45,5 +45,5 @@ sudo service nginx restart
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzk2ODA3XX0=
+eyJoaXN0b3J5IjpbNDQzNDUxMTEwXX0=
 -->
