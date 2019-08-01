@@ -1,28 +1,21 @@
-Architecture du programme
+# Architecture du programme
 
-# Base de données
+## Base de données
 
-| Table | Contenu | Value |
-| ---- | ----- |------|
+| Table | Contenu | 
+| ---- | ----- |
 | Chaudiere | 1 entrée à chaque appel du script sensor/create_data.py (toutes les 3 à 5 secondes)|
+|ChaudiereMinute|1 entrée par minute (moyenne des données de la table Chaudiere)|
 
 
-
-
-ChaudiereMinute
-
-1 entrée par minute (moyenne des données de la table Chaudiere)
 
   
 
-Pour simplifier le code, les deux tables ont la même structure et les mêmes champs. Le champ ‘phase’ n’est pas utilisé dans la table Chaudiere.
+Pour simplifier le code, les deux tables ont la même structure et les mêmes champs. Le champ `phase` n’est pas utilisé dans la table `Chaudiere`.
 
-# Principes de base
+## Principes de base
 
 Le script sensor/create_data.py tourne en tâche de fond géré par supervisor. Il récupère les données des capteur (températures et moteurs) et les enregistre dans la table Chaudiere toutes les 3 à 5 secondes environ.
-
-  
-
 Le script flask_app/script/archive_minute.py est appelé toutes les deux minutes (cron).
 
 Si de nouvelles données sont présentent dans la table Chaudiere, alors il crée une/plusieurs entrées dans la table ChaudiereMinute (une entrée pour chaque minute).
@@ -43,5 +36,5 @@ En mode production, deux minutes sont traitées à chaque appel
 
 Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, alors une alerte mail/sms est générée. Aucun mail/sms n’est envoyé si une alerte à déja été générée dans les 10 minutes précédentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5NzI5NTkwXX0=
+eyJoaXN0b3J5IjpbMTA2MjU1NjUxXX0=
 -->
