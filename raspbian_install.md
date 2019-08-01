@@ -64,9 +64,11 @@ alias prod='cd /home/pi/Prod/chaudiere/'
 export WORKON_HOME=~/Envs
 source /home/pi/.local/bin/virtualenvwrapper.sh
 
+# workon dev env when the consol is open 
 workon dev
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTAzMDcxNSwxMDI5OTgxMzIwXX0=
+eyJoaXN0b3J5IjpbMTY2MTc2OTkzMSwxNjIxMDMwNzE1LDEwMj
+k5ODEzMjBdfQ==
 -->
