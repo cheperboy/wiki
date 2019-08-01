@@ -34,10 +34,13 @@ network={
 }
 ```
 
-# Configuration
-1.  Modify hostname, Edit `/etc/hostname`. Set to chaudiere
-2.  Modify pi password type terminal sudo passwd pi
-3.  Edit ~/.bashrc
+# Hostname and password
+1.  Modify hostname, Edit `/etc/hostname`. Set to chaudiere (re
+2.  Modify pi password `sudo passwd pi`
+ 
+
+ Edit ~/.bashrc
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzOTE0MDAsMTAyOTk4MTMyMF19
+eyJoaXN0b3J5IjpbNDk0MTE5MTE1LDEwMjk5ODEzMjBdfQ==
 -->
