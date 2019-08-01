@@ -1,4 +1,4 @@
-# Architecture du programme
+# TArchitecture du programme
 
 ## Base de données
 
@@ -6,10 +6,6 @@
 | ---- | ----- |
 | Chaudiere | 1 entrée à chaque appel du script sensor/create_data.py (toutes les 3 à 5 secondes)|
 |ChaudiereMinute|1 entrée par minute (moyenne des données de la table Chaudiere)|
-
-
-
-  
 
 Pour simplifier le code, les deux tables ont la même structure et les mêmes champs. Le champ `phase` n’est pas utilisé dans la table `Chaudiere`.
 
@@ -34,5 +30,5 @@ En mode production, deux minutes sont traitées à chaque appel
 Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, alors une alerte mail/sms est générée. Aucun mail/sms n’est envoyé si une alerte à déja été générée dans les 10 minutes précédentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTY1OTg0OV19
+eyJoaXN0b3J5IjpbLTE0NzUyNzc1NjldfQ==
 -->
