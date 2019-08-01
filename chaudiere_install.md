@@ -10,9 +10,10 @@ mkdir ~/CONFIG_CHAUDIERE
 ```
 
 # Production
+```
 cd  ~/Prod
-git clone 
-
+git clone https://github.com/cheperboy/chaudiere.git
+```
 
 # Secret conf file 
 
@@ -20,5 +21,5 @@ git clone
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY2MjAyMl19
+eyJoaXN0b3J5IjpbNTEzMDU5NDQ4XX0=
 -->
