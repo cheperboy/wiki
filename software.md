@@ -31,6 +31,15 @@ En mode production, deux minutes sont traitées à chaque appel
 
 Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, alors une alerte mail/sms est générée. Aucun mail/sms n’est envoyé si une alerte à déja été générée dans les 10 minutes précédentes.
 
+```mermaid
+graph TD
+A[cron] -->|every minute| B(get_sensor.py)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MjI0NiwtMTQ3NTI3NzU2OV19
+eyJoaXN0b3J5IjpbMTA5NTY1OTQ1OSw0OTgyMjQ2LC0xNDc1Mj
+c3NTY5XX0=
 -->
