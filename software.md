@@ -1,4 +1,4 @@
-# TArchitecture du programme
+# Architecture du programme
 
 ## Base de données
 
@@ -30,5 +30,5 @@ En mode production, deux minutes sont traitées à chaque appel
 Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, alors une alerte mail/sms est générée. Aucun mail/sms n’est envoyé si une alerte à déja été générée dans les 10 minutes précédentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUyNzc1NjldfQ==
+eyJoaXN0b3J5IjpbMTQ4NTQwMTA4OSwtMTQ3NTI3NzU2OV19
 -->
