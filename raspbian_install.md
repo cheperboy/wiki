@@ -56,16 +56,18 @@ network={
 `sudo apt-get install curl`
 
 NEXMO need cryptographie and cffi
+
 `sudo apt-get install build-essential libssl-dev libffi-dev python-dev`
 
 **clean**
+
 `sudo apt-get clean` supprime les paquets téléchargés et stockés sur carte SD
 
 
 ## bashrc
 `nano ~/.bashrc`
 ```shell
- # ls alias
+# ls alias
 alias ll='ls -l'
 alias la='ls -A'
 alias lla='ls -la'
@@ -87,9 +89,8 @@ source /home/pi/.local/bin/virtualenvwrapper.sh
 
 # workon dev env when the consol is open 
 workon dev
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjUyODI0LC04MjE4MTE1NzIsMTYyMT
-AzMDcxNSwxMDI5OTgxMzIwXX0=
+eyJoaXN0b3J5IjpbLTE1NDg2NzgwMzgsLTg3MjUyODI0LC04Mj
+E4MTE1NzIsMTYyMTAzMDcxNSwxMDI5OTgxMzIwXX0=
 -->
