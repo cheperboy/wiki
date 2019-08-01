@@ -34,12 +34,11 @@ Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, al
 ```mermaid
 graph TD
 A[supervisor] -->|every second| B(create_data.py.py)
-B --> C{Let me think}
-C -->|One| D[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[Car]
+B --> C{api_get_watt_values}
+C -->|One| D[api_get_watt_values]
+C -->|Two| E[api_get_temp_values]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ3MDIxNDAsNDk4MjI0NiwtMTQ3NT
-I3NzU2OV19
+eyJoaXN0b3J5IjpbMTk5NjgyODg0OCwtMTc0NDcwMjE0MCw0OT
+gyMjQ2LC0xNDc1Mjc3NTY5XX0=
 -->
