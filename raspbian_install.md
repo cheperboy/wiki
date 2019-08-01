@@ -41,6 +41,7 @@ network={
  
 ## Package install
 **Update/upgrade system and existing packages**
+
 `sudo apt-get update` met à jour la liste des dépôts
 
 `sudo apt-get dist-upgrade -y` met à jour tous les paquets installés vers les dernières versions en installant de nouveaux paquets si nécessaire
@@ -92,6 +93,6 @@ source /home/pi/.local/bin/virtualenvwrapper.sh
 workon dev
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzMjY1MjQxLC04NzI1MjgyNCwtODIxOD
+eyJoaXN0b3J5IjpbMTU5OTc2NDI3LC04NzI1MjgyNCwtODIxOD
 ExNTcyLDE2MjEwMzA3MTUsMTAyOTk4MTMyMF19
 -->
