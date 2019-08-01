@@ -15,11 +15,13 @@ cd  ~/Prod
 git clone https://github.com/cheperboy/chaudiere.git
 ```
 
+
+
 # Secret conf file 
 
 `nano ~/CONFIG_CHAUDIERE/chaudiere_secret_config.py`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMDU5NDQ4XX0=
+eyJoaXN0b3J5IjpbLTUyNzY3NDcyNF19
 -->
