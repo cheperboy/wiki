@@ -48,9 +48,11 @@ network={
 `sudo apt-get upgrade -y` met à jour tous les paquets installés sur le système
 
 **Install packages**
+
 `sudo apt-get -y install supervisor git python-pip nginx`
 
 **specific packages for chaudiere app**
+
 `sudo apt-get install curl`
 
 NEXMO need cryptographie and cffi
@@ -88,6 +90,6 @@ workon dev
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTgxMTU3MiwxNjIxMDMwNzE1LDEwMj
-k5ODEzMjBdfQ==
+eyJoaXN0b3J5IjpbLTg3MjUyODI0LC04MjE4MTE1NzIsMTYyMT
+AzMDcxNSwxMDI5OTgxMzIwXX0=
 -->
