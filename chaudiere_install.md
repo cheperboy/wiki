@@ -19,19 +19,20 @@ git clone https://github.com/cheperboy/chaudiere.git
 Edit a new conf file and copy the content of this template conf file
 ```
 # sudo nano /etc/nginx/sites-available/chaudiere
-sudo cp ~/Prod/chaudiere/ /etc/nginx/sites-available/chaudiere
+sudo cp ~/Prod/chaudiere/config/prod/nginx_chaudiere_conf /etc/nginx/sites-available/
 
-sudo ln -s /etc/nginx/sites-available/chaudiere /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-available/nginx_chaudiere_conf /etc/nginx/sites-enabled
 ```
-
 Remove the sym link to default conf file (otherwise it causes errors)
-sudo rm /etc/nginx/sites-enabled/default
+`sudo rm /etc/nginx/sites-enabled/default`
 
 To test configuration:
-sudo nginx -t
+
+`sudo nginx -t`
 
 Restart nginx
-sudo service nginx restart
+
+`sudo service nginx restart`
 
 ## Usefull Cmmands
 sudo systemctl status nginx
@@ -44,5 +45,5 @@ sudo service nginx restart
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4OTYyODAyXX0=
+eyJoaXN0b3J5IjpbLTgwMzk2ODA3XX0=
 -->
