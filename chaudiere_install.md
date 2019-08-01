@@ -44,7 +44,7 @@ sudo supervisorctl start sensor gunicorn
 | File | Content | Value |
 | ---- | ----- |------|
 | `chaudiere_secret_config.py` | `"URL" : "http://xxx.hd.free.fr:",`| Public IP of the network| 
-| `flask_app/app/constantes.py` |`InputDb = {TEMP_CHAUDIERE : 'temp0', ...}` | Physical inputs -> database fields Edit this dictionary to allocate physical/software interface
+| `flask_app/app/constantes.py` |`InputDb = {TEMP_CHAUDIERE : 'temp0', ...}` | Edit to map Physical inputs to database fields 
 
 
 
@@ -54,6 +54,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzE0MTIwOCwtMTc4NTc0MDMzNSwxNz
-Q4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbLTE5MjE3ODY0OTcsLTE3ODU3NDAzMzUsMT
+c0ODY2MTY5OV19
 -->
