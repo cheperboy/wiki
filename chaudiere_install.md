@@ -31,7 +31,6 @@ To test configuration `sudo nginx -t`
 To Restart nginx `sudo service nginx restart`
 
 ## Supervisor
-
 ```
 sudo supervosorctl stop all
 sudo cp ~/Prod/chaudiere/config/prod/supervisor_chaudiere.conf /etc/supervisor/conf.d/
@@ -48,5 +47,5 @@ sudo supervosorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NjgzMzMyLDE3NDg2NjE2OTldfQ==
+eyJoaXN0b3J5IjpbMTMxMzA2MTc4MiwxNzQ4NjYxNjk5XX0=
 -->
