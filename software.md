@@ -33,13 +33,13 @@ Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, al
 
 ```mermaid
 graph TD
-A[cron] -->|every minute| B(get_sensor.py)
+A[supervisor] -->|every second| B(create_data.py.py)
 B --> C{Let me think}
 C -->|One| D[Laptop]
 C -->|Two| E[iPhone]
 C -->|Three| F[Car]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTY1OTQ1OSw0OTgyMjQ2LC0xNDc1Mj
-c3NTY5XX0=
+eyJoaXN0b3J5IjpbLTE3NDQ3MDIxNDAsNDk4MjI0NiwtMTQ3NT
+I3NzU2OV19
 -->
