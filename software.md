@@ -35,12 +35,13 @@ Si la température de l’eau de la chaudiere (temp0) passe sous la consigne, al
 graph TD
 A[supervisor] -->|every second| B(create_data.py)
 B --> C[api_get_watt_values]
-B --> D[api_get_temp_values]
-C --> E[api_get_temp_values]
-ADS1115
+C --> |physical input| E[ADS1115 + watt sensor]
+C --> |physical input| E[ADS1115 + watt sensor]
+G --> D[api_get_temp_values]
+
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM1NTc5OTgsLTE3NDQ3MDIxNDAsND
-k4MjI0NiwtMTQ3NTI3NzU2OV19
+eyJoaXN0b3J5IjpbMTEyNTIzNzUyNCwtMTc0NDcwMjE0MCw0OT
+gyMjQ2LC0xNDc1Mjc3NTY5XX0=
 -->
