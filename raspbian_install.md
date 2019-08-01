@@ -45,12 +45,11 @@ network={
 `sudo apt-get dist-upgrade -y` met à jour tous les paquets installés vers les dernières versions en installant de nouveaux paquets si nécessaire
 `sudo apt-get upgrade -y` met à jour tous les paquets installés sur le système
 
-Install packages
-sudo apt-get -y install supervisor
-sudo apt-get -y install git
-sudo apt-get -y install python-pip
-sudo apt-get -y install nginx
-
+**Install packages**
+```
+sudo apt-get -y install supervisor git python-pip nginx
+```
+**Install packages**
 Install packages (specific to Chaudiere application)
 sudo apt-get install curl
 
@@ -88,6 +87,6 @@ workon dev
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDgxODE4MiwxNjIxMDMwNzE1LDEwMj
+eyJoaXN0b3J5IjpbLTE4MjY2Njk0MiwxNjIxMDMwNzE1LDEwMj
 k5ODEzMjBdfQ==
 -->
