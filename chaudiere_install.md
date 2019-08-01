@@ -41,9 +41,9 @@ sudo supervisorctl start sensor gunicorn
 
 ## Edit config variable
 
-| File | Line | Line |
-| --- | ----------- |---|
-| Header | Title |
+| File | Line | Value |
+| ---- | ----- |------|
+| chaudiere_secret_config.py | "URL" : "http://xxx.hd.free.fr:",| Public IP of the network| 
 | Paragraph | Text |
 
 
@@ -53,6 +53,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDAyNjY3MCwtMTc4NTc0MDMzNSwxNz
+eyJoaXN0b3J5IjpbMTYxODY2MzUyNCwtMTc4NTc0MDMzNSwxNz
 Q4NjYxNjk5XX0=
 -->
