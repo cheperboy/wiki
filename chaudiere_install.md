@@ -55,12 +55,6 @@ mkdir ~/Prod/db
 mkdir ~/CONFIG_CHAUDIERE
 ```
 
-# Production tools
-```
-cd  ~/Prod
-git clone https://github.com/cheperboy/chaudiere.git
-```
-
 ## nginx
 Create a chaudiere conf file and sym link
 ```
@@ -100,8 +94,8 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTE5NDQ3MCwxMjY3MDM1OTYsMjA2MT
-YwNDMwOCwtNTA1ODg0OTEzLC0xMzgzMjA3MzI3LDIwNDUzNjE3
-MDMsLTE5MjE3ODY0OTcsLTE3ODU3NDAzMzUsMTc0ODY2MTY5OV
-19
+eyJoaXN0b3J5IjpbOTAwMDg4NzM5LDEyOTUxOTQ0NzAsMTI2Nz
+AzNTk2LDIwNjE2MDQzMDgsLTUwNTg4NDkxMywtMTM4MzIwNzMy
+NywyMDQ1MzYxNzAzLC0xOTIxNzg2NDk3LC0xNzg1NzQwMzM1LD
+E3NDg2NjE2OTldfQ==
 -->
