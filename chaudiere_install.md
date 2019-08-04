@@ -5,6 +5,8 @@
 4. `mkdir /home/pi/Dev && cd /home/pi/Dev` 
 5. `git clone https://github.com/cheperboy/chaudiere.git`
 6. `. install_system.sh |& tee install_system.sh.log`
+7. `sudo /bin/bash hardware.sh`
+8. `. install_chaudiere.sh |& tee install_chaudiere.sh.log`
 
 
 # Scripts
@@ -95,7 +97,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTY3OTIzNiwyMDYxNjA0MzA4LC01MD
-U4ODQ5MTMsLTEzODMyMDczMjcsMjA0NTM2MTcwMywtMTkyMTc4
-NjQ5NywtMTc4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbMTI2NzAzNTk2LDIwNjE2MDQzMDgsLTUwNT
+g4NDkxMywtMTM4MzIwNzMyNywyMDQ1MzYxNzAzLC0xOTIxNzg2
+NDk3LC0xNzg1NzQwMzM1LDE3NDg2NjE2OTldfQ==
 -->
