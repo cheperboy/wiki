@@ -2,10 +2,10 @@
 | Effect | `system.sh` | `install.sh` | `deploy.sh` |
 | ---- | ----- |------|------|
 | apt-get update | | | 
-| apt-get apt-get upgrade | | | 
+| apt-get dist-upgrade | | | 
 | apt-get upgrade | | | 
-| apt-get update | | | 
-| apt-get update | | | 
+| install supervisor git python-pip nginx | | | 
+| NEXMO install build-essential libssl-dev libffi-dev python-dev| | | 
 | apt-get update | | | 
 | apt-get update | | | 
 
@@ -76,6 +76,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI2NzUxNTAsLTE5MjE3ODY0OTcsLT
-E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbNjI0MjkxOTgwLC0xOTIxNzg2NDk3LC0xNz
+g1NzQwMzM1LDE3NDg2NjE2OTldfQ==
 -->
