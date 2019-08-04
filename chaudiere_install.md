@@ -1,8 +1,8 @@
 # Scripts
-| Effect | `system.sh` | `install.sh` | `deploy.sh` | `hardware.sh` |
+|  | `system.sh` | `install.sh` | `deploy.sh` | `hardware.sh` |
 | ---- | ----- |------|------|------|
-| create secret conf file | :x: | :x: | :x: | 
-| apt-get update | :heavy_check_mark: | | | 
+| create secret conf file | :x: | :x: | :x: | :x: | 
+| apt-get update | :heavy_check_mark: | | | d
 | apt-get dist-upgrade | :heavy_check_mark: | | 
 | apt-get upgrade | :heavy_check_mark: | | 
 | install supervisor git python-pip nginx | :heavy_check_mark: | | 
@@ -85,7 +85,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5Nzg5OTg0LC0xMzgzMjA3MzI3LDIwND
-UzNjE3MDMsLTE5MjE3ODY0OTcsLTE3ODU3NDAzMzUsMTc0ODY2
-MTY5OV19
+eyJoaXN0b3J5IjpbMTc4OTgzNzQyNSwtMTM4MzIwNzMyNywyMD
+Q1MzYxNzAzLC0xOTIxNzg2NDk3LC0xNzg1NzQwMzM1LDE3NDg2
+NjE2OTldfQ==
 -->
