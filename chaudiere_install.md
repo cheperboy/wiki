@@ -9,8 +9,8 @@
 | NEXMO install build-essential libssl-dev libffi-dev python-dev| :heavy_check_mark: | | 
 | pip install virtualenv virtualenvwrapper | :heavy_check_mark: | | 
 | install curl | :heavy_check_mark: | | 
-| edit /etc/modules | :heavy_check_mark: | | | 
-| edit /boot.config.txt | :heavy_check_mark: | | :heavy_check_mark:| 
+| edit /etc/modules | | | | :heavy_check_mark:| 
+| edit /boot.config.txt | | | | :heavy_check_mark:| 
 | **erase** /home/pi/Prod/chaudiere if exists | |:heavy_check_mark: |:heavy_check_mark:
 | create /home/pi/Prod | |:heavy_check_mark: |
 | create /home/pi/Prod/chaudiere | |:heavy_check_mark: |
@@ -85,7 +85,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjQ0ODAyMiwtMTM4MzIwNzMyNywyMD
-Q1MzYxNzAzLC0xOTIxNzg2NDk3LC0xNzg1NzQwMzM1LDE3NDg2
-NjE2OTldfQ==
+eyJoaXN0b3J5IjpbNDU5Nzg5OTg0LC0xMzgzMjA3MzI3LDIwND
+UzNjE3MDMsLTE5MjE3ODY0OTcsLTE3ODU3NDAzMzUsMTc0ODY2
+MTY5OV19
 -->
