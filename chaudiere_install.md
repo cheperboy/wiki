@@ -1,7 +1,24 @@
 # Scripts
 | Effect | `system.sh` | `install.sh` | `deploy.sh` |
 | ---- | ----- |------|------|
-| install nginx | | | 
+| apt-get update | | | 
+| apt-get apt-get upgrade | | | 
+| apt-get upgrade | | | 
+| apt-get update | | | 
+| apt-get update | | | 
+| apt-get update | | | 
+| apt-get update | | | 
+
+run "sudo apt-get dist-upgrade -y"
+run "sudo apt-get upgrade -y"
+run "sudo apt-get -y install supervisor git python-pip nginx"
+run "pip install virtualenv virtualenvwrapper"
+run "sudo apt-get install curl"
+# NEXMO need cryptographie and cffi
+run "sudo apt-get install build-essential libssl-dev libffi-dev python-dev"
+
+# clean downloaded packages
+run "sudo apt-get clean"
 
 # Directories
 ```
@@ -59,6 +76,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTg5NDQyMywtMTkyMTc4NjQ5NywtMT
-c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbLTExOTI2NzUxNTAsLTE5MjE3ODY0OTcsLT
+E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
