@@ -17,8 +17,8 @@
 | create /home/pi/Dev/db | |:heavy_check_mark: |
 | create /home/pi/Dev/log | |:heavy_check_mark: |
 | clone repo in Prod/chaudiere | |:heavy_check_mark: |
-|  | |:heavy_check_mark: |
-|  | |:heavy_check_mark: |
+| mkvirtualenv dev | |:heavy_check_mark: |
+| mkvirtualenv prod | |:heavy_check_mark: |
 |  | |:heavy_check_mark: |
 |  | |:heavy_check_mark: |
 |  | |:heavy_check_mark: |
@@ -82,6 +82,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4OTYwODI0LC0xOTIxNzg2NDk3LC0xNz
+eyJoaXN0b3J5IjpbNDcxMTQ0NjI4LC0xOTIxNzg2NDk3LC0xNz
 g1NzQwMzM1LDE3NDg2NjE2OTldfQ==
 -->
