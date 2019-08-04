@@ -1,13 +1,13 @@
 # Scripts
 | Effect | `system.sh` | `install.sh` | `deploy.sh` |
 | ---- | ----- |------|------|
-| apt-get update | | :x: | | 
-| apt-get dist-upgrade | | | 
-| apt-get upgrade | | | 
-| install supervisor git python-pip nginx | | | 
-| NEXMO install build-essential libssl-dev libffi-dev python-dev| | | 
-| apt-get update | | | 
-| apt-get update | | | 
+| apt-get update | :heavy_check_mark: | | | 
+| apt-get dist-upgrade | :heavy_check_mark: | | 
+| apt-get upgrade | :heavy_check_mark: | | 
+| install supervisor git python-pip nginx | :heavy_check_mark: | | 
+| NEXMO install build-essential libssl-dev libffi-dev python-dev| :heavy_check_mark: | | 
+| apt-get update | :heavy_check_mark: | | 
+| apt-get update | :heavy_check_mark: | | 
 
 run "sudo apt-get dist-upgrade -y"
 run "sudo apt-get upgrade -y"
@@ -76,6 +76,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTY5MjM1NiwtMTkyMTc4NjQ5NywtMT
+eyJoaXN0b3J5IjpbLTg2Mjg0NDYxMCwtMTkyMTc4NjQ5NywtMT
 c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
 -->
