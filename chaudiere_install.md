@@ -2,13 +2,13 @@
 |  | `system.sh` | `install.sh` | `deploy.sh` | `hardware.sh` |
 | ---- | ----- |------|------|------|
 | create secret conf file | :x: | :x: | :x: | :x: | 
-| apt-get update | :heavy_check_mark: | | | d
-| apt-get dist-upgrade | :heavy_check_mark: | | 
-| apt-get upgrade | :heavy_check_mark: | | 
-| install supervisor git python-pip nginx | :heavy_check_mark: | | 
-| NEXMO install build-essential libssl-dev libffi-dev python-dev| :heavy_check_mark: | | 
-| pip install virtualenv virtualenvwrapper | :heavy_check_mark: | | 
-| install curl | :heavy_check_mark: | | 
+| apt-get update | :heavy_check_mark: | | | 
+| apt-get dist-upgrade | :heavy_check_mark: | | | 
+| apt-get upgrade | :heavy_check_mark: | | |
+| install supervisor git python-pip nginx | :heavy_check_mark: | | | 
+| NEXMO install build-essential libssl-dev libffi-dev python-dev| :heavy_check_mark: | |  |
+| pip install virtualenv virtualenvwrapper | :heavy_check_mark: | | | 
+| install curl | :heavy_check_mark: | |  |
 | edit /etc/modules | | | | :heavy_check_mark:| 
 | edit /boot.config.txt | | | | :heavy_check_mark:| 
 | **erase** /home/pi/Prod/chaudiere if exists | |:heavy_check_mark: |:heavy_check_mark:
@@ -85,7 +85,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTgzNzQyNSwtMTM4MzIwNzMyNywyMD
+eyJoaXN0b3J5IjpbMTg5ODM2MzQyMywtMTM4MzIwNzMyNywyMD
 Q1MzYxNzAzLC0xOTIxNzg2NDk3LC0xNzg1NzQwMzM1LDE3NDg2
 NjE2OTldfQ==
 -->
