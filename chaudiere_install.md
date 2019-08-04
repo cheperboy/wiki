@@ -1,6 +1,8 @@
 # Install with scripts
 1. Install raspbian
-1. configure wifi (edit 
+2. configure wifi (edit  `/etc/wpa_supplicant/wpa_supplicant.conf`)
+
+
 # Scripts
  |  | `system.sh` | `hardware.sh` | `install.sh` | `deploy.sh` | 
  | ---- | :-----: | :-----: | :-----: | :-----: | 
@@ -89,7 +91,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA2MDk1MDYsMjA2MTYwNDMwOCwtNT
+eyJoaXN0b3J5IjpbLTE5NjI4MDU5MDcsMjA2MTYwNDMwOCwtNT
 A1ODg0OTEzLC0xMzgzMjA3MzI3LDIwNDUzNjE3MDMsLTE5MjE3
 ODY0OTcsLTE3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
