@@ -1,7 +1,8 @@
 # Install with scripts
 1. Install raspbian
 2. configure wifi (edit  `/etc/wpa_supplicant/wpa_supplicant.conf`)
-2. set hostname to chaudiere (edit  `/etc/hostname`. raspberry will be accessible via chaudiere.local)
+3. set hostname to chaudiere (edit  `/etc/hostname`. raspberry will be accessible via *chaudiere.local*)
+4. `mkdir /home/pi/Dev` 
 
 
 # Scripts
@@ -92,7 +93,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyNTkwMjEzLDIwNjE2MDQzMDgsLTUwNT
-g4NDkxMywtMTM4MzIwNzMyNywyMDQ1MzYxNzAzLC0xOTIxNzg2
-NDk3LC0xNzg1NzQwMzM1LDE3NDg2NjE2OTldfQ==
+eyJoaXN0b3J5IjpbLTE3MDI5NTE3NDksMjA2MTYwNDMwOCwtNT
+A1ODg0OTEzLC0xMzgzMjA3MzI3LDIwNDUzNjE3MDMsLTE5MjE3
+ODY0OTcsLTE3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
