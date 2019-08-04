@@ -1,6 +1,6 @@
 # Scripts
 | Effect | `system.sh` | `install.sh` | `deploy.sh` |
-| ---- | ----- |------|------|
+| ---- | ----- |------|------|------|
 | create secret conf file | :x: | :x: | :x: | 
 | apt-get update | :heavy_check_mark: | | | 
 | apt-get dist-upgrade | :heavy_check_mark: | | 
@@ -9,6 +9,8 @@
 | NEXMO install build-essential libssl-dev libffi-dev python-dev| :heavy_check_mark: | | 
 | pip install virtualenv virtualenvwrapper | :heavy_check_mark: | | 
 | install curl | :heavy_check_mark: | | 
+| edit /etc/modules | :heavy_check_mark: | | | 
+| edit /boot.config.txt | :heavy_check_mark: | | :heavy_check_mark:| 
 | **erase** /home/pi/Prod/chaudiere if exists | |:heavy_check_mark: |:heavy_check_mark:
 | create /home/pi/Prod | |:heavy_check_mark: |
 | create /home/pi/Prod/chaudiere | |:heavy_check_mark: |
@@ -83,7 +85,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzAxMTk0NywtMTM4MzIwNzMyNywyMD
+eyJoaXN0b3J5IjpbLTg0MTE5ODI1MSwtMTM4MzIwNzMyNywyMD
 Q1MzYxNzAzLC0xOTIxNzg2NDk3LC0xNzg1NzQwMzM1LDE3NDg2
 NjE2OTldfQ==
 -->
