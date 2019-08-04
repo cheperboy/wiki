@@ -1,7 +1,7 @@
 # Scripts
 | Effect | `system.sh` | `install.sh` | `deploy.sh` |
 | ---- | ----- |------|------|
-| apt-get update | | [x] | | 
+| apt-get update | | x | | 
 | apt-get dist-upgrade | | | 
 | apt-get upgrade | | | 
 | install supervisor git python-pip nginx | | | 
@@ -76,6 +76,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzE2OTQ2NCwtMTkyMTc4NjQ5NywtMT
-c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbLTQ0NzEzOTIwLC0xOTIxNzg2NDk3LC0xNz
+g1NzQwMzM1LDE3NDg2NjE2OTldfQ==
 -->
