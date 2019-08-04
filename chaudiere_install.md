@@ -1,3 +1,10 @@
+# Scripts
+| File | Content | Value |
+| ---- | ----- |------|
+|  | `"URL" : "http://xxx.hd.free.fr:",`| Public IP of the network| 
+| `flask_app/app/constantes.py` |`InputDb = {TEMP_CHAUDIERE : 'temp0', ...}` | Edit to map Physical inputs to database fields 
+
+
 # Directories
 ```
 mkdir ~/Dev
@@ -54,6 +61,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE3ODY0OTcsLTE3ODU3NDAzMzUsMT
-c0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbLTE0NzI4MzI4NzUsLTE5MjE3ODY0OTcsLT
+E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
