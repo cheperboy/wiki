@@ -4,9 +4,11 @@
 3. set hostname to chaudiere (edit  `/etc/hostname`. raspberry will be accessible via *chaudiere.local*)
 4. `mkdir /home/pi/Dev && cd /home/pi/Dev` 
 5. `git clone https://github.com/cheperboy/chaudiere.git`
-6. `. install_system.sh |& tee install_system.sh.log`
-7. `sudo /bin/bash hardware.sh`
-8. `. install_chaudiere.sh |& tee install_chaudiere.sh.log`
+6. Secret config 
+i.  `mkdir /home/pi/CONFIG_CHAUDIERE`
+8. `. install_system.sh |& tee install_system.sh.log`
+9. `sudo /bin/bash hardware.sh`
+10. `. install_chaudiere.sh |& tee install_chaudiere.sh.log`
 
 
 # Scripts
@@ -97,7 +99,8 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzAzNTk2LDIwNjE2MDQzMDgsLTUwNT
-g4NDkxMywtMTM4MzIwNzMyNywyMDQ1MzYxNzAzLC0xOTIxNzg2
-NDk3LC0xNzg1NzQwMzM1LDE3NDg2NjE2OTldfQ==
+eyJoaXN0b3J5IjpbLTMyMjQ4MzE3LDEyNjcwMzU5NiwyMDYxNj
+A0MzA4LC01MDU4ODQ5MTMsLTEzODMyMDczMjcsMjA0NTM2MTcw
+MywtMTkyMTc4NjQ5NywtMTc4NTc0MDMzNSwxNzQ4NjYxNjk5XX
+0=
 -->
