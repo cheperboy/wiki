@@ -9,7 +9,7 @@
 | NEXMO install build-essential libssl-dev libffi-dev python-dev| :heavy_check_mark: | | 
 | pip install virtualenv virtualenvwrapper | :heavy_check_mark: | | 
 | install curl | :heavy_check_mark: | | 
-| erase /home/pi/Prod/chaudiere if exists | |:heavy_check_mark: |
+| **erase** /home/pi/Prod/chaudiere if exists | |:heavy_check_mark: |
 | create /home/pi/Prod | |:heavy_check_mark: |
 | create /home/pi/Prod/chaudiere | |:heavy_check_mark: |
 | create /home/pi/Prod/db | |:heavy_check_mark: |
@@ -17,7 +17,7 @@
 | create /home/pi/Dev/db | |:heavy_check_mark: |
 | create /home/pi/Dev/log | |:heavy_check_mark: |
 | clone repo in Prod/chaudiere | |:heavy_check_mark: |
-| mkvirtualenv dev and prod| |:heavy_check_mark: |
+| **mkvirtualenv** dev and prod (overwrite| |:heavy_check_mark: |
 | install requirements.txt in both env | |:heavy_check_mark: |
 | flask_app/manage.py create_db in both env | |:heavy_check_mark: |
 | configure nginx | |:heavy_check_mark: |
@@ -83,6 +83,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTM2MTcwMywtMTkyMTc4NjQ5NywtMT
-c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbMTE4NjQwNjgzMiwyMDQ1MzYxNzAzLC0xOT
+IxNzg2NDk3LC0xNzg1NzQwMzM1LDE3NDg2NjE2OTldfQ==
 -->
