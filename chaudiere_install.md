@@ -11,6 +11,13 @@
 9. `sudo /bin/bash hardware.sh`
 10. `. install_chaudiere.sh |& tee install_chaudiere.sh.log`
 
+# Edit config variable
+
+| File | Content | Value |
+| ---- | ----- |------|
+| `chaudiere_secret_config.py` | `"URL" : "http://xxx.hd.free.fr:",`| Public IP of the network| 
+| `flask_app/app/constantes.py` |`InputDb = {TEMP_CHAUDIERE : 'temp0', ...}` | Edit to map Physical inputs to database fields 
+
 
 # Scripts
  |  | `system.sh` | `hardware.sh` | `install.sh` | `deploy.sh` | 
@@ -79,23 +86,9 @@ sudo supervisorctl reload
 sudo supervisorctl start sensor gunicorn
 ```
 
-## Edit config variable
-
-| File | Content | Value |
-| ---- | ----- |------|
-| `chaudiere_secret_config.py` | `"URL" : "http://xxx.hd.free.fr:",`| Public IP of the network| 
-| `flask_app/app/constantes.py` |`InputDb = {TEMP_CHAUDIERE : 'temp0', ...}` | Edit to map Physical inputs to database fields 
-
-
-
-# Secret conf file 
-
-`nano ~/CONFIG_CHAUDIERE/chaudiere_secret_config.py`
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwMDg4NzM5LDEyOTUxOTQ0NzAsMTI2Nz
-AzNTk2LDIwNjE2MDQzMDgsLTUwNTg4NDkxMywtMTM4MzIwNzMy
-NywyMDQ1MzYxNzAzLC0xOTIxNzg2NDk3LC0xNzg1NzQwMzM1LD
-E3NDg2NjE2OTldfQ==
+eyJoaXN0b3J5IjpbLTE0NjMyNDA0MTksMTI5NTE5NDQ3MCwxMj
+Y3MDM1OTYsMjA2MTYwNDMwOCwtNTA1ODg0OTEzLC0xMzgzMjA3
+MzI3LDIwNDUzNjE3MDMsLTE5MjE3ODY0OTcsLTE3ODU3NDAzMz
+UsMTc0ODY2MTY5OV19
 -->
