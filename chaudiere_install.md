@@ -17,9 +17,9 @@
 | create /home/pi/Dev/db | |:heavy_check_mark: |
 | create /home/pi/Dev/log | |:heavy_check_mark: |
 | clone repo in Prod/chaudiere | |:heavy_check_mark: |
-| **mkvirtualenv** dev and prod (overwrite| |:heavy_check_mark: |
+| **mkvirtualenv** dev and prod (overwrite)| |:heavy_check_mark: |
 | install requirements.txt in both env | |:heavy_check_mark: |
-| flask_app/manage.py create_db in both env | |:heavy_check_mark: |
+| flask_app/manage.py **create_db in both env** | |:heavy_check_mark: |
 | configure nginx | |:heavy_check_mark: |
 | configure supervisor | |:heavy_check_mark: |
 | configure cron (in /etc/cron.d) | |:heavy_check_mark: |
@@ -83,6 +83,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjQwNjgzMiwyMDQ1MzYxNzAzLC0xOT
-IxNzg2NDk3LC0xNzg1NzQwMzM1LDE3NDg2NjE2OTldfQ==
+eyJoaXN0b3J5IjpbLTEzODMyMDczMjcsMjA0NTM2MTcwMywtMT
+kyMTc4NjQ5NywtMTc4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
 -->
