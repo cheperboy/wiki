@@ -1,5 +1,5 @@
 # Scripts
-| File | Content | Value |
+| Effect | `install_chaudiere.sh` | Value |
 | ---- | ----- |------|
 |  | `"URL" : "http://xxx.hd.free.fr:",`| Public IP of the network| 
 | `flask_app/app/constantes.py` |`InputDb = {TEMP_CHAUDIERE : 'temp0', ...}` | Edit to map Physical inputs to database fields 
@@ -61,6 +61,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI4MzI4NzUsLTE5MjE3ODY0OTcsLT
-E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbLTIzNTA5ODI2NiwtMTkyMTc4NjQ5NywtMT
+c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
 -->
