@@ -1,3 +1,6 @@
+# Install with scripts
+1. Install raspbian
+1. configure wifi (edit 
 # Scripts
  |  | `system.sh` | `hardware.sh` | `install.sh` | `deploy.sh` | 
  | ---- | :-----: | :-----: | :-----: | :-----: | 
@@ -86,7 +89,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTYwNDMwOCwtNTA1ODg0OTEzLC0xMz
-gzMjA3MzI3LDIwNDUzNjE3MDMsLTE5MjE3ODY0OTcsLTE3ODU3
-NDAzMzUsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbLTEyMjA2MDk1MDYsMjA2MTYwNDMwOCwtNT
+A1ODg0OTEzLC0xMzgzMjA3MzI3LDIwNDUzNjE3MDMsLTE5MjE3
+ODY0OTcsLTE3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
