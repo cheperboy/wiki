@@ -17,10 +17,10 @@
 | create /home/pi/Dev/db | |:heavy_check_mark: |
 | create /home/pi/Dev/log | |:heavy_check_mark: |
 | clone repo in Prod/chaudiere | |:heavy_check_mark: |
-| mkvirtualenv dev | |:heavy_check_mark: |
-| mkvirtualenv prod | |:heavy_check_mark: |
-|  | |:heavy_check_mark: |
-|  | |:heavy_check_mark: |
+| mkvirtualenv dev and prod| |:heavy_check_mark: |
+| install requirements.txt in both env | |:heavy_check_mark: |
+| flask_app/manage.py create_db in both env | |:heavy_check_mark: |
+| config | |:heavy_check_mark: |
 |  | |:heavy_check_mark: |
 |  | |:heavy_check_mark: |
 |  | |:heavy_check_mark: |
@@ -82,6 +82,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMTQ0NjI4LC0xOTIxNzg2NDk3LC0xNz
-g1NzQwMzM1LDE3NDg2NjE2OTldfQ==
+eyJoaXN0b3J5IjpbLTEyOTMxNTU1MTUsLTE5MjE3ODY0OTcsLT
+E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
