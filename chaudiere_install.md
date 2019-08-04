@@ -1,7 +1,7 @@
 # Scripts
 | Effect | `system.sh` | `install.sh` | `deploy.sh` |
 | ---- | ----- |------|------|
-| create secret conf file | :x: | | | 
+| create secret conf file | :x: | :x: | :x: | 
 | apt-get update | :heavy_check_mark: | | | 
 | apt-get dist-upgrade | :heavy_check_mark: | | 
 | apt-get upgrade | :heavy_check_mark: | | 
@@ -68,6 +68,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ2MzcwMDMsLTE5MjE3ODY0OTcsLT
-E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbMTE4NjA4MjU0MSwtMTkyMTc4NjQ5NywtMT
+c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
 -->
