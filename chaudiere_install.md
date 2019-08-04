@@ -6,7 +6,7 @@
 5. `git clone https://github.com/cheperboy/chaudiere.git`
 6. Secret config 
 	-  `mkdir /home/pi/CONFIG_CHAUDIERE`
-	- `copy config from repo, edit, and rename (delete
+	- copy config from repo, edit, and rename (delete 'template')
 8. `. install_system.sh |& tee install_system.sh.log`
 9. `sudo /bin/bash hardware.sh`
 10. `. install_chaudiere.sh |& tee install_chaudiere.sh.log`
@@ -100,8 +100,8 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA5OTU4NDMsMTI2NzAzNTk2LDIwNj
-E2MDQzMDgsLTUwNTg4NDkxMywtMTM4MzIwNzMyNywyMDQ1MzYx
-NzAzLC0xOTIxNzg2NDk3LC0xNzg1NzQwMzM1LDE3NDg2NjE2OT
-ldfQ==
+eyJoaXN0b3J5IjpbMTI5NTE5NDQ3MCwxMjY3MDM1OTYsMjA2MT
+YwNDMwOCwtNTA1ODg0OTEzLC0xMzgzMjA3MzI3LDIwNDUzNjE3
+MDMsLTE5MjE3ODY0OTcsLTE3ODU3NDAzMzUsMTc0ODY2MTY5OV
+19
 -->
