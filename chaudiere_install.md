@@ -20,10 +20,11 @@
 | mkvirtualenv dev and prod| |:heavy_check_mark: |
 | install requirements.txt in both env | |:heavy_check_mark: |
 | flask_app/manage.py create_db in both env | |:heavy_check_mark: |
-| config | |:heavy_check_mark: |
-|  | |:heavy_check_mark: |
-|  | |:heavy_check_mark: |
-|  | |:heavy_check_mark: |
+| configure nginx | |:heavy_check_mark: |
+| configure supervisor | |:heavy_check_mark: |
+| configure cron (in /etc/cron.d) | |:heavy_check_mark: |
+| supervisorctl start sensor gunicorn | |:heavy_check_mark: |
+| sudo service nginx start | |:heavy_check_mark: |
 
 
 # Directories
@@ -82,6 +83,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMxNTU1MTUsLTE5MjE3ODY0OTcsLT
-E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
+eyJoaXN0b3J5IjpbMjA0NTM2MTcwMywtMTkyMTc4NjQ5NywtMT
+c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
 -->
