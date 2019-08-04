@@ -6,19 +6,10 @@
 | apt-get upgrade | :heavy_check_mark: | | 
 | install supervisor git python-pip nginx | :heavy_check_mark: | | 
 | NEXMO install build-essential libssl-dev libffi-dev python-dev| :heavy_check_mark: | | 
-| apt-get update | :heavy_check_mark: | | 
-| apt-get update | :heavy_check_mark: | | 
+| pip install virtualenv virtualenvwrapper | :heavy_check_mark: | | 
+| install curl | :heavy_check_mark: | | 
+|  | |:heavy_check_mark: |
 
-run "sudo apt-get dist-upgrade -y"
-run "sudo apt-get upgrade -y"
-run "sudo apt-get -y install supervisor git python-pip nginx"
-run "pip install virtualenv virtualenvwrapper"
-run "sudo apt-get install curl"
-# NEXMO need cryptographie and cffi
-run "sudo apt-get install build-essential libssl-dev libffi-dev python-dev"
-
-# clean downloaded packages
-run "sudo apt-get clean"
 
 # Directories
 ```
@@ -76,6 +67,6 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjg0NDYxMCwtMTkyMTc4NjQ5NywtMT
-c4NTc0MDMzNSwxNzQ4NjYxNjk5XX0=
+eyJoaXN0b3J5IjpbLTE1Mzc0MzQyODUsLTE5MjE3ODY0OTcsLT
+E3ODU3NDAzMzUsMTc0ODY2MTY5OV19
 -->
