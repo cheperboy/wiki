@@ -1,6 +1,6 @@
 # Scripts
  |  | `system.sh` | `hardware.sh` | `install.sh` | `deploy.sh` | 
- | ---- | :-----: | ------ | ------ | ------ | 
+ | ---- | :-----: | :-----: | :-----: | :-----: | 
  | create secret conf file | :x: | :x: | :x: | :x: | 
  | apt-get update | :heavy_check_mark: |  |  |  | 
  | apt-get dist-upgrade | :heavy_check_mark: |  |  |  | 
@@ -86,7 +86,7 @@ sudo supervisorctl start sensor gunicorn
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODI1MDQ3MywtNTA1ODg0OTEzLC0xMz
+eyJoaXN0b3J5IjpbMjA2MTYwNDMwOCwtNTA1ODg0OTEzLC0xMz
 gzMjA3MzI3LDIwNDUzNjE3MDMsLTE5MjE3ODY0OTcsLTE3ODU3
 NDAzMzUsMTc0ODY2MTY5OV19
 -->
